@@ -1,14 +1,28 @@
 /*'https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap*/
 
 @import url('./assets/fonts/static/Dosis-Regular.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;600;700&display=swap');
 
 html{scroll-behavior: smooth;}
 
 body {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Mukta', sans-serif; /*Dosis*/
 }
 
 a {text-decoration: none;}
+
+
+/*-------------------------------------------------
+#NAV Section
+---------------------------------------------------*/
+.nav-item{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.nav-link
+{
+}
 
 /*-------------------------------------------------
 #Hero Section
@@ -193,6 +207,13 @@ a {text-decoration: none;}
     margin: 0 auto;
 }
 
+@media (max-width: 690px){
+    #services .scard .desc{
+        text-align: center;
+        width: 100%;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Projects
@@ -224,7 +245,7 @@ a {text-decoration: none;}
     margin-bottom: 1.5rem;
     margin-left: auto;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #ebeded;
     text-align: center;
 }
 .card-icon i{
@@ -306,8 +327,12 @@ a {text-decoration: none;}
 }
 
 
-.opa{opacity: 0.9;}
+.opa{
+    /* opacity: 0.9; */
+    /* background: #d3d3d3 !important; */
+}
 .opa img {
-    width:30%;
+    width:20%;
     transition: width .2s linear;
+    transition: all 0.2s linear;
 }
