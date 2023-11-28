@@ -1,5 +1,5 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { "namespace": "android_app", "package_name": "com.ptb-jo.realestate",
+    "target" : { "namespace": "android_app", "package_name": "com.example.real_estate_app",
                  "sha256_cert_fingerprints": ["F0:6F:64:9A:B5:A3:35:0D:E7:9E:D7:39:1F:24:B9:29:56:39:FB:D2:C4:6D:07:9A:3B:5B:92:24:AD:A1:AD:7C"] }
   }]
