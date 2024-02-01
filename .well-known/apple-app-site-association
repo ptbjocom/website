@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appID":"X654W53RSM.com.ptb-jo.realEstateApp",
+                "paths": ["/*"]
+            }
+        ]
+    }
+}
