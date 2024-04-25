@@ -1,5 +1,5 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { "namespace": "android_app", "package_name": "com.example.real_estate_app",
-                 "sha256_cert_fingerprints": ["F0:6F:64:9A:B5:A3:35:0D:E7:9E:D7:39:1F:24:B9:29:56:39:FB:D2:C4:6D:07:9A:3B:5B:92:24:AD:A1:AD:7C"] }
+    "target" : { "namespace": "android_app", "package_name": "com.ptbjo.real_estate_app",
+                 "sha256_cert_fingerprints": ["29:E5:59:B3:09:3A:74:65:BF:9E:4C:BD:CD:07:21:88:E0:46:4F:A8:9B:61:99:52:29:12:06:53:69:CD:BC:B3"] }
   }]
